@@ -262,7 +262,6 @@ nav img {
   .list-place {
   
     display: flex;
-    justify-content: center;
 
   }
 
@@ -271,8 +270,8 @@ nav img {
     margin: 80px 100px 0px 240px;
     display: flex;
     flex-wrap: wrap;
-    /* width: 100% ; */
-    /* padding: 40px; */
+    width: 100% ;
+    padding: 40px;
   }
   
   .blog .blog-list .blog-list-item {

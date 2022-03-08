@@ -135,14 +135,14 @@ function getFullTime(time) {
 
 function getDistanceTime(time) {
  
-  const distance = new Date(time) - new Date(time)
+  const distance = new Date() - new Date(time)
   
 
-  var miliseconds = 1000
-  var secondInMinute = 60
-  var minutesInHour = 60
-  var secondsInHour = secondInMinute * minutesInHour
-  var hoursInDay = 23
+  let miliseconds = 1000
+  let secondInMinute = 60
+  let minutesInHour = 60
+  let secondsInHour = secondInMinute * minutesInHour
+  let hoursInDay = 23
   let hourDistance = Math.floor(distance / (miliseconds * secondsInHour))
   let dayDistance = distance / (miliseconds * secondsInHour * hoursInDay)
 
@@ -203,9 +203,9 @@ function getDayDifference(start,end) {
        
 }
 
-// setInterval(function(){
-//   renderBlog()
-// }, 2000)
+setInterval(function(){
+  renderBlog()
+}, 2000)
 
 
 
