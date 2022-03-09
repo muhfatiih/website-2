@@ -142,7 +142,7 @@ function getDistanceTime(time) {
   let secondInMinute = 60
   let minutesInHour = 60
   let secondsInHour = secondInMinute * minutesInHour
-  let hoursInDay = 23
+  let hoursInDay = 24
   let hourDistance = Math.floor(distance / (miliseconds * secondsInHour))
   let dayDistance = distance / (miliseconds * secondsInHour * hoursInDay)
 
