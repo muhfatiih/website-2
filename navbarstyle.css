@@ -2,89 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-body {
-    margin: 0;
-    background-color: #ced4da;
+/* navbar start */
+
+
+.btn {
+    margin-top: 15px;
 }
-
-/* nav {
-    display:flex;
-    background-color: #edf6f9;
-    height: 6%;
-    width: 100%;
-    
-}
-
-nav div {
-    display: flex;
-
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav li {
-
-    display: inline;
-    padding-left: 20px;
-    font-family: 'Poppins', sans-serif;    
-    font-weight: 700;
-
-}
-
-nav li a {
-    color: black;
-    text-decoration: none;
-}
-
-
-nav a {
-     text-decoration: none;
-     color: whitesmoke;
-}
-
-nav .right-side {
-    flex: 50%;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-}
-
-nav .right-side a {
-    border: 0px solid none;
-    background-color: orangered;
-    padding: 5px 20px;
-    border-radius: 10px;
-    color: black;
-}
-
-nav .right-side a:hover {
-    background-color: #fcbf49;
-    transition: all 0.4s;
-}
-
-
-
-nav .left-side {
-    flex:50%;
-    padding-left: 30px;
-}
-
-nav .left-side li a:hover {
-    color: orangered;
-    transition: all 0.4s;
-}
-
-nav img {
-    height: 30px;
-    padding-top: 10px;
-} */
-
-/* navbar-end */
-
 
 /* Creating Card */
 .main {
@@ -183,13 +106,16 @@ nav img {
 }
 
 .box .myphoto h3 {
-    line-height: 0px;
-
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;  
+    padding-top: 7px;
 }
 
 .box .myphoto p {
     font-size: small;
-    padding-bottom: 10px;
+    /* padding-bottom: 5px; */
+    font-family: 'Montserrat', sans-serif;    
 }
 
 span p {

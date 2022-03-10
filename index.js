@@ -7,6 +7,6 @@ app.get ('/', function(request, response) {
     response.send('halo')
 });
 
-app.listen(PORT, function() {
+app.listen(port, function() {
     console.log(`server starting on port:${port} `)
 })
